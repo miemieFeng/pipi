@@ -37,22 +37,22 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <ChapterCard 
-              number="第一章" 
-              title="舔狗的终局" 
-              excerpt="深秋的夜里，风有些凉。皮皮坐在出租屋昏暗的灯光下，手机屏幕亮着，上面是甜甜发的朋友圈..."
-              slug="chapter1"
+              number="第四章" 
+              title="联谊会的魅力战场" 
+              excerpt="周末的联谊会如期而至，这是一场学校组织的半正式活动，目的是促进学生之间的交流和友谊。对于皮皮来说，这是一个展示新自我的绝佳舞台。"
+              slug="chapter4"
             />
             <ChapterCard 
-              number="第二章" 
-              title="重生高中" 
-              excerpt="'皮皮！皮皮！上课睡什么觉，站起来回答问题！'一个尖锐的女声把皮皮从黑暗中拉了出来..."
-              slug="chapter2"
+              number="第五章" 
+              title="青山湖郊游" 
+              excerpt="郊游当天，天气格外晴朗。皮皮比约定时间早到了十分钟，站在校门口等候。他今天穿了一身简约的户外装备，准备大展身手。"
+              slug="chapter5"
             />
             <ChapterCard 
-              number="第三章" 
-              title="新的开始" 
-              excerpt="从重生那天起，皮皮就告诉自己，这一次一定不能再做舔狗。他开始制定计划，如何逆袭人生..."
-              slug="chapter3"
+              number="第六章" 
+              title="电影院的游戏" 
+              excerpt="周六很快来临，皮皮站在镜子前仔细打量着自己。今天他特意选择了一身轻松休闲的装扮，准备在电影院大展身手。"
+              slug="chapter6"
             />
           </div>
         </div>

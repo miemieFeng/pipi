@@ -39,6 +39,13 @@ const chaptersMetadata = [
     title: "青山湖郊游",
     slug: "chapter5",
     prev: "chapter4",
+    next: "chapter6"
+  },
+  {
+    number: 6,
+    title: "电影院的游戏",
+    slug: "chapter6",
+    prev: "chapter5",
     next: null
   }
 ];

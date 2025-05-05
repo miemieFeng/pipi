@@ -38,6 +38,12 @@ export default function ChaptersPage() {
       title: "青山湖郊游",
       slug: "chapter5",
       excerpt: "郊游当天，天气格外晴朗。皮皮比约定时间早到了十分钟，站在校门口等候。他今天穿了一身简约的户外装备，准备大展身手。"
+    },
+    {
+      number: 6,
+      title: "电影院的游戏",
+      slug: "chapter6",
+      excerpt: "周六很快来临，皮皮站在镜子前仔细打量着自己。今天他特意选择了一身轻松休闲的装扮，准备在电影院大展身手，同时操控两名女生。"
     }
   ];
 
