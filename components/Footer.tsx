@@ -44,21 +44,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">关注我们</h3>
             <p className="text-gray-300 mb-4">
-              订阅我们的更新，获取最新章节通知。
+              感谢您对我们小说的支持与关注。
             </p>
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="您的电子邮箱"
-                className="px-4 py-2 rounded-l-md flex-grow text-black focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="bg-accent hover:bg-amber-600 text-white px-4 py-2 rounded-r-md transition-colors"
-              >
-                订阅
-              </button>
-            </form>
           </div>
         </div>
         
@@ -78,4 +65,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;

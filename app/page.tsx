@@ -97,28 +97,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 订阅区域 */}
-      <section className="py-12 md:py-16 bg-accent text-white">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">订阅更新</h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
-            不错过任何一章精彩内容，获取最新章节更新通知
-          </p>
-          <form className="max-w-md mx-auto flex">
-            <input
-              type="email"
-              placeholder="输入您的电子邮箱"
-              className="flex-grow px-4 py-3 rounded-l-md text-primary focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="bg-primary hover:bg-slate-800 px-6 py-3 rounded-r-md transition-colors"
-            >
-              订阅
-            </button>
-          </form>
-        </div>
-      </section>
+
     </div>
   );
 }
@@ -152,4 +131,4 @@ const CharacterCard = ({ name, role, description, slug }: { name: string, role: 
       <p className="text-secondary line-clamp-2">{description}</p>
     </Link>
   );
-}; 
+};
