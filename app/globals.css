@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 51, 65, 85;
+  --background-rgb: 248, 250, 252;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold font-serif;
+  }
+  h2 {
+    @apply text-2xl font-bold font-serif;
+  }
+  h3 {
+    @apply text-xl font-bold font-serif;
+  }
+  p {
+    @apply my-4 leading-relaxed;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-accent text-white hover:bg-amber-600;
+  }
+} 
